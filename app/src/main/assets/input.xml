@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolkit>
+	<Section title="Section A (Patient Component) Part 1: Questions for Memory, Language, and Personality Changes">
+		<Subdomain title="MEMORY">
+			<Question title="Do you think your memory or thinking has changed in the last 5-10 years?">
+				<Prompt>Remembering recent events, like a family event, dinner, movie, or book</Prompt>
+				<Prompt>Remembering recent conversations</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>Yes, I often go into a room and forget why I'm there</Ans>
+					<Ans>I have more difficulty remembering names </Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes, any other complaint</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="LANGUAGE">
+			<Question title="Have you noticed changes in your language?">
+				<Prompt>Trouble finding words or understanding conversations</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>I have occassional problems coming up with a word.</Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I think it's harder for me to get my point across</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+		
+		<Subdomain title="PERSONALITY">
+			<Question title="Have you noticed changes in your personality?">
+				<Prompt>More irritable/anger more easily</Prompt>
+				<Prompt>Trouble getting along with people?</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I might be a little less patient.</Ans>
+					<Ans>My family thinks I'm more difficult to get along with.</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+	</Section>
+
+	<Section title="Section A (Patient Component) Part 2: Significance of Cognitive Complaints">
+		<Subdomain title="MEMORY">
+			<Question title="Do you think your memory changes are worse than your peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>All my friends complain about the same thing.</Ans>
+					<Ans>Actually, I think my memory is still better than my peers.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>Conﬁrm with informant, negative Mini-Co.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My friends don’t seem to have as much trouble as I do with remembering appointments.</Ans>
+					<Ans>I often rely on my friends to remember our dates.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+			<Question title="Have you stopped doing anything because of these changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>I might rely on my phone or calendar more.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I am worried about my performance at work.</Ans>
+					<Ans>I have given control of the calendar to my spouse.</Ans>
+					<Ans>I am asking my family to help with bills/ﬁnances.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+			<Question title="Has anybody commented to you about these changes in your memory?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>My children occasionally say I repeat a story.</Ans>					
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My partner tells me that I am always asking them what the schedule is.</Ans>
+					<Ans>My friends comment that I often miss appointments.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="LANGUAGE">
+			
+			<Question title="Do you think your language changes are worse than your peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>All my friends complain about the same thing.</Ans>
+					<Ans>Actually, I think my vocabulary is more limited</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My friends comment that I don’t speak as easily as in the past.</Ans>
+					<Ans>My partner is always saying that I don’t seem to be able to participate in discussions as well as the past.</Ans>
+					<Ans>I am hesitant to talk on the phone because of my speech (or comprehension).</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Have you stopped doing anything because of these language changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>My life is very busy.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>Conﬁrm with informant, negative Mini-Cog</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I stopped participating in my book club.</Ans>
+					<Ans>I still go but speak less at social occasions.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Has anybody commented to you to you about these changes in your language?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral></IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My partner says I use words like “thingy” more than I used to.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="PERSONALITY">
+			<Question title="Do you think your personality changes are worse than those of your peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>We are all just getting crabby.</Ans>
+					<Ans>We all are doing less than we used to.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I seem to be much less patient than my friends.</Ans>
+					<Ans>I’m much less interested in doing things than my friends.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Have you stopped doing anything because of these personality changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>I’m busier than ever.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My partner doesn’t like to go out to dinner with me anymore.</Ans>
+					<Ans>I am just not interested in hobbies the way I used to be.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Has anyone commented on these personality changes to you?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>My friends think that I tend to get angry more easily.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+	</Section>
+
+	<Section title="Section B (Informant Component) Part 1: Questions for Memory, Language, and Personality Changes">
+		<Subdomain title="MEMORY">
+			<Question title="Do you think the patient's memory or thinking has changed in the last 5-10 years?">
+				<Prompt>Remembering recent events, like a family event, dinner, movie, or book</Prompt>
+				<Prompt>Remembering recent conversations</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>Yes, they often go into a room and forget why they're there</Ans>
+					<Ans>They have more difficulty remembering names </Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes, any other complaint</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="LANGUAGE">
+			<Question title="Have you noticed changes in their language?">
+				<Prompt>Trouble finding words or understanding conversations</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>They have occassional problems coming up with a word.</Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I think that it’s harder for them to get their point across.</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="PERSONALITY">
+			<Question title="Have you noticed changes in their personality?">
+				<Prompt>More irritable/anger more easily</Prompt>
+				<Prompt>Trouble getting along with people?</Prompt>
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging if confirmed with informant or negative mini-cog</Interpretation>
+					<IndicationsForReferral>No referral</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>ORANGE</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They might be a little less patient.</Ans>
+					<Ans>Our family thinks they're more difficult to get along with.</Ans>
+					<Interpretation>Could be cognitive impairment</Interpretation>
+					<IndicationsForReferral>Requires follow up questions in Part 2</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+	</Section>
+
+	<Section title="Section B (Informant Component) Part 2: Significance of Cognitive Complaints">
+		<Subdomain title="MEMORY">
+			<Question title="Do you think their memory changes are worse than your peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>All their friends complain about the same thing.</Ans>
+					<Ans>Actually, I think their memory is still better than their peers.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>Conﬁrm with negative Mini-Co.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>Their friends don’t seem to have as much trouble as they do with remembering appointments.</Ans>
+					<Ans>They often rely on their friends to remember their dates.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+			<Question title="Have they stopped doing anything because of these changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>They might rely on their phone or calendar more.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I am worried about their performance at work.</Ans>
+					<Ans>They have given control of the calendar to me/their spouse.</Ans>
+					<Ans>They have asked for help with bills/finances.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+			<Question title="Has anybody commented to you about these changes in their memory?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>Their children occasionally say they will repeat a story.</Ans>					
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They are always asking me what the schedule is.</Ans>
+					<Ans>I notice that they often miss appointments.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="LANGUAGE">
+			<Question title="Do you think their language changes are worse than their peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>All their friends complain about the same thing.</Ans>
+					<Ans>Actually, I think their vocabulary is more limited</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They don’t speak as easily as in the past.</Ans>
+					<Ans>They don’t seem to be able to participate in discussions as well as in the past.</Ans>
+					<Ans>They are hesitant to talk on the phone because of their speech (or comprehension).</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Have they stopped doing anything because of these language changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>Their life is very busy.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>Conﬁrm with negative Mini-Cog</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They stopped participating in their book club.</Ans>
+					<Ans>They still go but speak less at social occasions.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Have you noticed any changes in their language?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral></IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They use words like “thingy” more than they used to.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+
+		<Subdomain title="PERSONALITY">
+			<Question title="Do you think their personality changes are worse than those of their peers?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>They are all just getting crabby.</Ans>
+					<Ans>They all are doing less than we used to.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>They seem to be much less patient than my friends.</Ans>
+					<Ans>They are much less interested in doing things than their friends.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Have they stopped doing anything because of these personality changes?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Ans>They are busier than ever.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>I don’t like to go out to dinner with them anymore.</Ans>
+					<Ans>They are just not interested in hobbies like they used to be.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+
+			<Question title="Has anyone commented on these personality changes to you?">
+				<Answer>
+					<Color>GREEN</Color>
+					<Ans>No.</Ans>
+					<Interpretation>Normal aging.</Interpretation>
+					<IndicationsForReferral>No referral.</IndicationsForReferral>
+				</Answer>
+				<Answer>
+					<Color>YELLOW</Color>
+					<Ans>Yes.</Ans>
+					<Ans>Their friends think that they tend to get angry more easily.</Ans>
+					<Interpretation>Concerning for cognitive impairment.</Interpretation>
+					<IndicationsForReferral>Bring back for full assessment.</IndicationsForReferral>
+				</Answer>
+			</Question>
+		</Subdomain>
+	</Section>
+</Toolkit>
